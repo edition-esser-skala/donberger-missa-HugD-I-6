@@ -493,3 +493,59 @@ GratiasBassoLyrics = \lyricmode {
   tu --
   am. %128 finis
 }
+
+DomineFiliBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoDomineFili
+      \set Score.currentBarNumber = #177
+    R1*8 %184
+    r8 \mvTr e\pE^\solo a4. gis16.[ a32] h4~ %185
+    h16[ e, a16. h32] c16.[ h32 h16. a32] gis8[ a] e8. e16
+    a,4 r r2
+    r r8 e' a4~
+    a8[ g!16 f] e8[ a] f16 e d8 g4~
+    g16.[ g,32 h16. d32] g8[ f] e16 d c8 g' f16 g %190
+    a8 g16([ a)] h8 a16([ h)] c8 h16 a g8[ c]
+    a f4 a8 d, f4 d8
+    g, g'4 f8 e c r16 e[ c e]
+    f4~ f16.[ f32 d16. f32] g4~ g16.[ g32 e16. g32]
+    \once \tieDashed a4~ a16.[ a32 f16. a32] h4~ h16.[ h32 g16. h32] %195
+    c8 e,16([ f)] g4 c, r
+    r2 r8 c f4~
+    f8.[ e32 f] g8.[ f32 g] a8 b16 a g8 f16 g
+    e8 c r4 f8 f16 f f8 g16 a
+    b8 a g f e16 d c8 c'[ a]~ %200
+    a[ f] d b'4 g8[ e c']
+    a[ b16 a] g8[ f] e c r4
+    c8 e4 g b a16.[ g32]
+    a8.[ g16] f8 d c2
+    f,4 r r2 %205
+    R1*20 %225
+    R1\fermata \bar "||" %226 finis
+  }
+}
+
+DomineFiliBassoLyrics = \lyricmode {
+  Do -- _ _ _ %185
+  _ _ _ mi --
+  ne,
+  Do -- _
+  _ _ mi -- ne, Do --
+  _ _ mi -- ne, Do -- mi -- ne %190
+  Fi -- li u -- ni -- ge -- ni -- te, Je --
+  _ _ _ _ _ _
+  _ _ su Chri -- ste, Je --
+  _ _
+  _ _ %195
+  _ su Chri -- ste,
+  Do -- _
+  _ _ mi -- ne, Do -- mi -- ne
+  Fi -- li, Do -- mi -- ne, Do -- mi -- ne
+  Fi -- li u -- ni -- ge -- ni -- te, Je -- %200
+  _ _ _
+  _ _ _ su,
+  Je -- _ _ _ _
+  _ _ su Chri --
+  ste. %205 finis
+}

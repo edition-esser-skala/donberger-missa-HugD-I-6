@@ -471,12 +471,51 @@ GratiasSopranoLyrics = \lyricmode {
   am. %128 finis
 }
 
+DomineFiliSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoDomineFili
+      \set Score.currentBarNumber = #177
+    R1*32 %208
+    r2 r8 \mvTr c'[\pE^\solo a d]
+    c[ b16 a] \hA b8[ c] a16[ g a b] c8 \hA b16 a %210
+    a8 g r4 r2
+    r8 a4 g16 f g8 c f e16([ d)]
+    e8 c c h!16 c a16.[ a32 h16. c32] d16[ h c h32( a])
+    h16.[ h32 c16. d32] e16[ c d c32( h)] c16.[ c32 d16. e32] f16[ d e d32( c)]
+    d16.[ d32 e16. f32] g16[ e f e32( d)] e16[ f32( e d c h c)] h8.[ c16] %215
+    c4 r r2
+    r r8 g c4~
+    c8[ h16 c] d8[ c16 d] e8 d16 c d8 c16 h
+    c8 c g a b4. c8
+    b a a h16 cis d[ \hA cis d8]~ d16[ c b a] %220
+    b[ a \hA b8]~ b16[ c d \hA b] c[ \hA b c8]~ c16[ \hA b a g]
+    a8[ h16. cis32] d8[ e] f[ cis] d4~
+    d8[ e] cis4\trill d r
+    R1*2 %225
+    R1\fermata \bar "||" %226 finis
+  }
+}
+
+DomineFiliSopranoLyrics = \lyricmode {
+  Do -- %209
+  _ _ _ _ mi -- ne %210
+  De -- us,
+  Do -- mi -- ne De -- us, A -- gnus
+  De -- i, Fi -- li -- us Pa -- _
+  _ _ _ _
+  _ _ _ _ %215
+  tris,
+  Do -- _
+  _ _ mi -- ne, Do -- mi -- ne
+  De -- us, De -- us, A -- gnus
+  De -- i, Fi -- li -- us Pa -- %220
+  _ _
+  _ _ _ _
+  _ tris. %223 finis
+}
 
 
-%   Do -- mi -- ne De -- us, Rex coe -- le -- stis,
-%   De -- us Pa -- ter o -- mni -- po -- tens,
-%   Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
-%   Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
 %   Qui tol -- lis pec -- ca -- ta mun -- di:
 %   Mi -- se -- re -- re no -- bis.
 %   Qui tol -- lis pec -- ca -- ta mun -- di:

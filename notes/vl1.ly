@@ -311,3 +311,52 @@ GratiasViolinoI = {
     R1\fermata \bar "||" %133 finis
   }
 }
+
+DomineFiliViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoDomineFili
+      \set Score.currentBarNumber = #177
+    e'16\fE^\unisono a32 gis a \hA gis a \hA gis a16 e f e32 d e16 a32 gis a \hA gis a \hA gis a16 e f e32 d
+    e16 c32 d e16 d32 c d16 h32 c d16 c32 h c8 a, r16 e'' a, e'
+    f f32 e f e f e f16 d h d e e32 d e d e d e16 g c, g'
+    a a32 g a g a g a16 f d f g g32 f g f g f g16 e c e %180
+    f16. d32 e16. c32 d,8 h' c,16. e'32 e8 r16 e32 f g f e16
+    c,16. e'32 e8 r16 e32 f g f e16 cis,16. e'32 e8 r16 e32 f g f e16
+    f d32 e f e d16 e c32 d e d c16 d h32 c d16 h c16. e32 a gis a \hA gis
+    a16. e32 a gis a \hA gis a16. e32 a gis a \hA gis a16. c,32 h16. a32 e8 gis
+    a,4 r r2 %185
+    R1
+    e''16 a32 gis a \hA gis a \hA gis a16 e f e32 d e16 a32 gis a \hA gis a \hA gis a16 e f e32 d
+    e16 c32 d e16 d32 c d16 h32 c d16 c32 h c8 a, r4
+    R1*4 %192
+    r2 g'16\p c32 h c h c h c16 g c32 h c h
+    a16 a d32 c d c d16 a d32 c d c h16 h e32 d e d e16 h e32 d e d
+    c16 c f32 e f e f16 c f32 e f e d16 d g32 f g f g16 d g32 f g f %195
+    e8 c, r4 r16 g''\fE c32 h c h c16 g c32 h c h
+    c16. c32 b16. a32 \hA b16. b32 a16. g32 a4 r
+    R1
+    r16 g, c32 h! c h c16 g b32 a \hA b a a8 f r4
+    r2 c16\p c'32 h! c h c h c8 c, %200
+    f16 d'32 c d c d c d8 d, e16 g'32 f g f g f g8 e,
+    c f r4 c16\p c'32 h c h c h c16 e32 d e d e d
+    e16 g32 f g f g f g16 b32 a \hA b a \hA b a \hA b16 g32 f g f g f g16. g32 f16. e32
+    f8 f, r4 r2
+    c'16\f f32 e f e f e f16 c d c32 b c16 f32 e f e f e f16 c d c32 b %205
+    c16 a32 b c \hA b a16 \hA b g32 a \hA b a g16 a8 f r16 c' a c
+    d d32 c d c d c b16 b'32 a \hA b16 \hA b, c c32 \hA b c \hA b c \hA b c16 a'32 g a16 a,
+    b b32 a \hA b a \hA b a \hA b16 g'32 f g f g f g16 b32 a \hA b a \hA b a \hA b16. g32 a16. f32
+    e16. c32 f16. b,32 a8 g f4 r
+    R1 %210
+    c16 c'32 h! c h c h c16 e32 d e d e d e16 g32 f g f g f g16. b?32 a16. g32
+    a8 f, r4 r2
+    R1*3 %215
+    g'16 c32 h c h c h c16 g a g32 f g16 c32 h c h c h c16 g a g32 f
+    g16. g32 f16. e32 f16. f32 e16. d32 e8 c, r4
+    R1*5 %222
+    r2 a'16 d32 cis d \hA cis d \hA cis d16 a b a32 g
+    a16 d32 cis d \hA cis d \hA cis d16 f32 e f e f e f16 a32 g a g a g a16. b32 b16. d,32
+    cis16 e32 d e d e d e16 a,32 gis a \hA gis a \hA gis a16 g32 fis g \hA fis g \hA fis g16. g32 f16. e32 %225
+    f8 d g, a d4 r\fermata \bar "||" %226 finis
+  }
+}

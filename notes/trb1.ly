@@ -200,3 +200,50 @@ GratiasTromboneI = {
     R1\fermata \bar "||" %133 finis
   }
 }
+
+DomineDeusTromboneSolo = {
+  \relative c' {
+    \clef alto
+    \key d \dorian \time 4/4 \tempoDomineDeus
+      \set Score.currentBarNumber = #134
+    \mvTr d4.\fE-\solo e16 f e4. f16 g
+    f8. e16 d4 g4. f8 %135
+    e8. d16 c8 f d4. g8
+    e4. f16 g a8 g16 f e8.\trill f16
+    f4 r8 a a g16 f e f g e
+    f8. e16 d8 f~ f e16 f g8 d
+    cis4 r8 a' f e16 d e8 cis %140
+    d16 e f g a8 g f4 e8.\trill d16
+    d4 r r2
+    R1*2
+    r2 r4 r8 f %145
+    d4. g8 e4. a8
+    f e16 d e8 cis d16 e f g a8 g
+    f4 e8. d16 d4 r
+    a'\pE a16 g f e f8 g a f
+    d4 r r2 %150
+    r e8 g16 f g8 \tieDashed e~
+    e4 d2 c4~ \tieSolid
+    c8 d16 c h8. c16 c4 r
+    R1
+    c4.\fE d16 e d4. e16 f %155
+    e8. d16 c8 g' a g f16 e f g
+    e8 f \tieDashed g4~ g8 f16 e f4~ \tieSolid
+    f8 e16 d e8 a g f16 e d8. c16
+    c4 r r2
+    R1*4 %163
+    r4 r8 a' a g16 f e f g e
+    f8 d r4 b'4.\pE a16 g %165
+    a4. g16 f g4. f16 e
+    f4 r r2
+    d4.\fE e16 f e4. f16 g
+    f8. e16 d4 g4. f8
+    e8. d16 c8 f d4~ d16 g f g %170
+    e4. f16 g a8 g16 f e8. f16
+    f4 r8 a a g16 f e f g f32 e
+    f8. e16 d8 f f e16 f g8 d
+    cis4 r8 a' f e16 d e8 cis
+    d16 e f g a8 g f4 e8.\trill d16 %175
+    d4 r r2\fermata \bar "|." %176 finis
+  }
+}

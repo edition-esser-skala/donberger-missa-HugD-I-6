@@ -438,3 +438,65 @@ GratiasAltoLyrics = \lyricmode {
   tu --
   am. %128 finis
 }
+
+DomineDeusAlto = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \autoBeamOff \tempoDomineDeus
+      \set Score.currentBarNumber = #134
+    R1*8 %141
+    \mvTr d4.\pE^\solo e16[ f] e4. f16[ g]
+    f8. e16 d4 g4. f8
+    e16[ d e f] g8 a16 b a4 g
+    \tuplet 3/2 8 { a16([ g f)] } a8^\critnote g f e16([ d)] c8 r4 %145
+    R1*2
+    r2 d4. e16[ f]
+    e4. f16[ g] f8. e16 d4
+    g16[ f g a] g[ d e f] e[ d e f] g8 f16 e %150
+    a8 g f g e c g' g
+    a4~ a16[ f e f] g4~ g16[ e d e]
+    f4~ f16[ d c d] e8[ f] g[ f16 e]
+    a4~ a16[ g f e] d8 e16 f d8. c16
+    c4 r r2 %155
+    R1*3
+    \once \tieDashed g'4~ g16[ e d c] a'8. a16 g4
+    a8 g16([ f)] g8 a f4 e %160
+    f4. e8 d4~ d16[ e f d]
+    g4. f8 e4~ e16[ f g e]
+    a4. g8 f[ e16 f] g8[ d]
+    cis a r4 r2
+    r4 a'8 a a4 g~ %165
+    g8[ f16 e] f2 e4~
+    e8[ d16 cis] d8 g \appoggiatura f e4. d8
+    d4 r r2
+    R1*7 %175
+    R1\fermata \bar "||" %176 finis
+  }
+}
+
+DomineDeusAltoLyrics = \lyricmode {
+  Do -- _ _ _ %142
+  _ mi -- ne, Do -- _
+  _ _ mi -- ne De -- us,
+  De -- us Rex coe -- le -- stis, %145
+
+  Do -- _ %148
+  _ _ _ mi -- ne,
+  Do -- _ _ _ mi -- ne %150
+  De -- us Rex coe -- le -- stis, De -- us
+  Pa -- _
+  _ _ _
+  _ _ ter o -- mni -- po --
+  tens, %155
+
+  Do -- _ mi -- ne %159
+  De -- us Rex coe -- le -- stis, %160
+  De -- us Pa --
+  _ _ _
+  _ _ _ _
+  _ ter,
+  De -- us Pa -- _ %165
+  _ _
+  ter o -- mni -- po --
+  tens. %168 fins
+}

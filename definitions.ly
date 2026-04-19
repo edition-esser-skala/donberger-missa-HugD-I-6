@@ -15,7 +15,7 @@ tempoGloria = \tempoMarkup "Allegro"
 tempoLaudamus = \tempoMarkup "Andante"
 tempoGratias = \tempoMarkup "Adagio"
   tempoPropter = \tempoMarkup "Allegro"
-tempoDomineRex = \tempoMarkup "Andante"
+tempoDomineDeus = \tempoMarkup "Andante"
 tempoDomineFili = \tempoMarkup "Andante"
 tempoQuiTollis = \tempoMarkup "Adagio"
 
