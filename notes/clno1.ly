@@ -223,3 +223,204 @@ GratiasClarinoI = {
     c1\fermata \bar "||" %133 finis
   }
 }
+
+QuoniamClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #276
+    e'8.\fE e16 e8 e \pa d d d g16 f
+    e d e f g8 e d d d g16 f
+    e d e f g8 e g f g g
+    g4. g8 \pd e4 g
+    a g g fis %280
+    g r r2
+    R1
+    d8 d16 d d8 g \pa e e d8. d16
+    d4. g8 e e d8. d16 \pd
+    d4. g8 g g g g %285
+    g g g8. g16 g8 g g8. g16
+    a8 a g8. g16 e4 \once \tieDashed g~
+    g8 f16 e \pa f4. e8 \pd d8. d16 \noBreak
+    c8 g g e e4 r\fermata \bar "||"
+    \tempoCumSancto R1*16 %305
+    r2 \pa c'\fE
+    c4. c8 g4 d'
+    e8 f g a16 g f8 e \pd f e
+    d4 e f2
+    \pa e4 d \pd e r %310
+    R1
+    r2 r4 d
+    \pa e8 f16 g a8 f d e16 f g8 f16 e
+    f4. g16 f \pd e2
+    R1*20 %334
+    r2 d %335
+    \pa e8 f g4 f a
+    g4. f8 e g4 fis8
+    g4 g4. f8 e d16 e
+    f8 e d4. e16 f g4
+    g8 f g a d,2 \pd %340
+    d4 c d2
+    c4 d d r
+    R1
+    r2 \pa e4 g
+    a c h4. a8 %345
+    g4 g a2
+    g4 g g4. f8
+    e f g4 d8 e f e
+    d c g4 c8 d e d
+    c4 d2 \pd c4 %350
+    d2 e4 d
+    c r r2\fermata \bar "|." %352 finis
+  }
+}
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoCredo
+    g''2\fE g r
+    g g r
+    e e d
+    e d r
+    e d r %5
+    g a g4 f
+    e2 e r
+    e r r
+    g g4 g g g
+    g2. g4 g g %10
+    g2 g fis
+    g1 r2
+    d r r
+    g g4 g g g
+    g e8 f g4 f g e %15
+    a g a b a g
+    f g a g a f
+    g2 g4 a g f
+    e2 d2. c4
+    c2 e g %20
+    e d r
+    e a g
+    e r r
+    e r r
+    R1.*6 %30
+    r2 e e
+    e r r
+    R1.
+    r2 e e
+    f f4 f d d %35
+    e2 e g
+    g g fis
+    g2. g4 g g
+    a2 a a
+    g2. g4 g g %40
+    e2 d g
+    e d r4 d
+    e2 g g
+    e r r
+    c r r %45
+    c r r
+    R1.*19 %65
+    \pao d2\fE g g
+    e e \pa g
+    e c \pd g'
+    a a \pa f
+    d d d \pd %70
+    e e e
+    e a a
+    a e \pa e
+    e \pd r r
+    r e e %75
+    f f f
+    r d d
+    e g1
+    e4 f g2 a
+    a g g %80
+    e r r
+    c r r\fermata \bar "||" %82 finis
+  }
+}
+
+EtResurrexitClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #170
+    \pa e'8\fE e16 f g8 g e e d g
+    e e d g e e d g
+    a4 a16 g f e d8 e d8. c16
+    c8 e d g16 f e4 d
+    r8 e d g16 f e4 d
+    r8 e d g16 f e8 a g g %175
+    e4 r c r
+    c r r2
+    R1*8 %185
+    r8 g'\fE g g e e d g
+    e e d g e e d8. c16
+    c8 c16 c c8 c c g16 g g8 g
+    g e16 e e8 e e4 r
+    R1 %190
+    r2 r4 e'
+    d8 e16 f g8 g e4 g8 g
+    e d d8. c16 c8 e d c16 d
+    e8 g g g e e d c16 d
+    e8 e d8. c16 c4 r %195
+    R1*9 %204
+    e8 e16 e e8 e e c g e \noBreak %205
+    c4 r r2\fermata \bar "||"
+    \tempoSimul R1*6 \noBreak %212
+    R1\fermata \bar "||"
+    \time 3/4 \tempoEtConglorificatur \newSpacingSection
+      R2.*8 %221
+    d'4\fE r8 d d d
+    e4 r r
+    R2.*2 %225
+    d8 d16 d e8 e d8. c16
+    c4 r d
+    e r d
+    c r r
+    c r r %230
+    e r r
+    c r r
+    c r r
+    R2.*4 %237
+    c4 r r \noBreak
+    c r r\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoEtVitam \newSpacingSection
+      R1*28 %267
+    e2\fE a~
+    a f
+    d1 %270
+    g
+    g2 e
+    a d,
+    g r
+    R1*44 %318
+    r2 g
+    g e %320
+    a g
+    g g
+    g f4 e
+    f2 f
+    f e4 d %325
+    e2 e4 d
+    c d8 e f4 e
+    f2 d
+    d g
+    g e4 f %330
+    g1^\critnote
+    R1*10 %341
+    r2 d
+    c1
+    c2 d
+    d d %345
+    d e4 d
+    e2 e4 d
+    c d8 e f4 e
+    f1
+    f2 e %350
+    d1
+    c2 d
+    e r\fermata \bar "|." %353 finis
+  }
+}

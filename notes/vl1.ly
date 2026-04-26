@@ -360,3 +360,456 @@ DomineFiliViolinoIeII = {
     f8 d g, a d4 r\fermata \bar "||" %226 finis
   }
 }
+
+QuiTollisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \dorian \time 3/2 \tempoQuiTollis
+      \set Score.currentBarNumber = #227
+    g'2\fE d b
+    g4 g'8( fis) g( \hA fis) g( \hA fis) g4-! d-!
+    r es8( d) \hA es( d) \hA es( d) \hA es4 b
+    r c8( b) c( b) c( b) d4 d %230
+    g, b''8( a) b( a) b( a) b4 b,
+    r a'8( g) a( g) a( g) a4 a,
+    r b'8( a) b( a) b( a) b4 b,
+    r g'8( f) g( f) g( f) g4 g,
+    r a'8( g) a( g) a( g) a4 a, %235
+    r b'8( a) b( a) b( a) b4 b,
+    r2 r4 a' a a,
+    a a'8( g) a( g) a( g) a4 a,
+    r a'8( g) a( g) a( g) a4 a,
+    r b'8( a) b( a) b( a) b4 b, %240
+    r g'8( f) g( f) g( f) g4 g,
+    r as'8( g) \hA as( g) \hA as( g) \hA as4 as,
+    as2 as g
+    f4 as'8( g) \hA as( g) \hA as( g) \hA as4 as,
+    r g8\p as b4 g8 \hA as b4 g %245
+    as as'8(\f g) \hA as( g) \hA as( g) \hA as4 \hA as,
+    r a'8( g) a( g) a( g) a4 a,
+    r a'8( g) a( g) a( g) a4 a,
+    r b'8( a) b( a) b( a) b4 b,
+    r b'8( a) b( a) b( a) b4 b, %250
+    r a'8( g) a( g) a( g) a4 a,
+    r g'8( f) g( f) g( f) g4 g,
+    r b'8( a) b( a) b( a) b4 b,
+    r e8( d) e( d) e( d) e4 e,
+    r a'8( g) a( g) a( g) a4 a, %255
+    r f'8( e) f( e) f( e) f4 f,
+    r d' e,-\critnote d' a, cis'
+    d a'8( g) a( g) a( g) a4 a,
+    r e8\p f g4 e8 f g4 e \noBreak
+    f2 r r\fermata \bar "||" %260
+    \time 4/4 \tempoSuscipe \newSpacingSection
+      R1*2
+    f'8\fE d16. f32 g8 es f d,16.\p f32 g8 es
+    f4 r r2
+    R1*3 %267
+    r4 r8 f'\fE f2~
+    f r4 d
+    d c2 b4 %270
+    b as8 f' d4 es~
+    es d \hA es g8 g
+    fis4 fis r c8 c
+    b2 a
+    h8 h h h h4 r\fermata \bar "||" %275 finis
+  }
+}
+
+QuoniamViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #276
+    g''8\fE e16 f g8 e a a g16 f e d
+    e d e f g8 e a a g16 f e d
+    e d e f g8 e c4. e8
+    d g16 f g8 d e4. d8
+    c h16 a h8 g' a, g' d, fis' %280
+    g g, h d g fis16 g a8 g16 a
+    h8 g a fis g g,, h d
+    g, h'16 c d8 g e16 d c h a d c d
+    h a h c d8 g e16 d c h a d c d
+    h g h d g g, h d g8 g g16 f! e d %285
+    e c e g c c, e g c8 g e c
+    a' a d, g e g g4~
+    g8 f16 e f4. e8 d4\trill \noBreak
+    c8 e, e e e4 r\fermata \bar "||"
+    \tempoCumSancto R1*12 %301
+    g2\fE c4 e
+    d4. c8 h4 g
+    c c8 c c4^\critnote h
+    a2 g4 c~ %305
+    c8 h16 a h4 c c8 h
+    a g f e16 f g8 a h a16 h
+    c4. h8 a g a g16 a
+    h8 g c4. h16 a h4
+    c h8 a g f e d16 e %310
+    fis8 g a4 h4. a8
+    g f g f16 g a8 g16 a h8 a16 h
+    c4. d8 h4 e
+    a, d g, \once \tieDashed c~
+    c8 d16 c h8 a gis e a4~ %315
+    a8 gis16 fis \hA gis4 a r
+    R1*4 %320
+    a2 d4^\critnote f
+    e4. d8 c4 a
+    d d8 d d4 c
+    h e8 d c h a g!16 a
+    h8 cis dis \hA cis16 \hA dis  e4. d8 %325
+    c h c h16 cis? dis8 h e4
+    e d2 c4~
+    c b2 a4
+    g2 a4 c~
+    c8 \once \tieDashed b~ b a16 \hA b c8 g a b %330
+    c b a \hA b16 c d2
+    c4^\critnote c c2
+    c r
+    R1
+    r2 g %335
+    c4 e d4. c8
+    h4 g c c8 c
+    c4 h8 a g4 c
+    a8 g a4 h4. c16 d
+    e4. e8 d2~ %340
+    d4 c2 h4
+    c h8 a g2
+    c4 e d4. c8
+    h4 d g, c8 c
+    a4 a h8 c d4 %345
+    e e e8 d16 e f8 e
+    d4 e d g8 f
+    e d c h16 c d8 e f e
+    d c h a16 h c8 d e d
+    c a d c h g c4~ %350
+    c h c d
+    e r r2\fermata \bar "|." %352 finis
+  }
+}
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoCredo
+    c''2\fE h4 c d c8 h
+    c2 h4 c d c8 h
+    c2 c h
+    c4 e, d e f e8 d
+    e2 d4 e f e8 d %5
+    e2 a g
+    g4 g g8 f g f g4 f
+    e e e8 d e d e4 d
+    e g g, g' g, g'
+    g, g' g, g' g, g' %10
+    g, g' g, g' fis8 g a \hA fis
+    g4 h8 c d c d c d4 c
+    h h h8 a h a h4 a
+    g g, h d g g
+    g e8 f! g4 f g e %15
+    a g a b a g
+    f g a g a f
+    g g g a g f
+    e2 g g
+    e2. e4 d8 e f4 %20
+    e2 d4 e f e8 d
+    e4 f8 g a2 d,
+    e4 g g8 f g f g4 f
+    e e e8 d e d e4 d
+    c e a e a, c %25
+    h2 r r
+    r4 e a e a, a'
+    h2 a a
+    gis4 e a e a, a'
+    f2. e4 d2 %30
+    d4 c h2.\trill a4
+    a e' e8 d e d e4 d
+    c c c8 h c h c4 h
+    a e' c8 d e4 c8 d e4
+    f a f8 g a4 d,8 e f4 %35
+    e8 g e g e f g4 e8 f g4
+    g2 g fis
+    g8 d e f g4 g c, g'
+    a f8 g a4 a f a
+    d, g g, g' g, g' %40
+    e2 d4 g g, g'
+    e2 d r4 g
+    g2 g g
+    g4 e e8 d e d e4 d
+    c g g8 f g f g4 f %45
+    e2 r r
+    R1.*12 %58
+    r4 d''\fE d8 c d c d4 c
+    h h h8 a h a h4 a %60
+    g2 r r
+    g4. g8 a2 fis
+    g r r
+    h,4. h8 c2 a
+    h a fis' %65
+    g g4 g g g
+    e2 e g
+    e c r
+    r r f
+    d h r %70
+    r e1
+    c4. e8 a2 a
+    a h, gis'
+    a, e'1
+    c2 a1 %75
+    r2 d1
+    h2 g1
+    r2 g'1
+    e2 d c
+    a' d, g %80
+    e4 g, g8 f g f g4 f
+    e2 r r\fermata \bar "||" %82 finis
+  }
+}
+
+EtIncarnatusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoEtIncarnatus
+      \set Score.currentBarNumber = #83
+      \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
+    r8 a''16.\fE b32 c8 a r a16. b32 c8 a
+    r a,16. b32 c8 a a^\critnote g r e'16. f32
+    g8 e r16 g e16. g32 a8 f16. e32 f16. f32 a,16. g32 %85
+    a4 r8 a g g g g
+    a a'16. b32 c8 a r a16. b32 c8 a
+    r b16. c32 d8 b r a16. b32 c8 a
+    r a16. b32 c8 a r fis16. g32 a8 \hA fis
+    r g16. a32 b8 g r g16. a32 b8 g %90
+    r fis16. g32 a8 \hA fis r a16. b32 c8 a
+    r b16. c32 d8 b r e,16. f32 g8 e
+    r f16. g32 a8 f r g16. a32 b8 b,
+    r g' d, fis' g g16. a32 b8 g
+    r d16. es32 f8 d r g16. as32 b8 g %95
+    r f16. g32 as8 f g es16. f32 g8 \hA es
+    r c16. d32 es8 c r g'16. f32 g8 g,
+    r g'16. f32 g8 h, c c16. d32 es8 c
+    r es,16. f32 g8 \hA es es2\p
+    d c4 r \noBreak %100
+    R1\fermata \bar "||"
+    \key c \dorian \time 3/2 \tempoCrucifixus \newSpacingSection
+      \revert Score.SpacingSpanner.common-shortest-duration
+      c'1\fE c2 \noBreak
+    h g b
+    a! f as
+    g c1 %105
+    c2 h1
+    c2. c4 b a!
+    g2 r4 es' b c
+    d2. d4 a h
+    c2. c4 g a %110
+    b!1 b2
+    a1.
+    g2 a h
+    c g c~
+    c h4 a \hA h2 %115
+    c es1
+    d2 h d
+    c a c
+    b! g1
+    f2 g1 %120
+    g2. g4 g fis
+    g2 r r
+    R1.*7 %129
+    c1 c2 %130
+    h g b
+    a! f as
+    g1 c2~
+    c h4 a \hA h2
+    c2. es4 b c %135
+    d2. d4 a h
+    c2. c4 g a
+    b!2 d1
+    c1.
+    b2 b1 %140
+    b b2
+    as1 as2
+    as1 as2
+    g g g
+    f f2. f4 %145
+    es2 es' es
+    d b des
+    c as c
+    b2. es4 b c
+    d!2. d4 a! h %150
+    c2. c4 g as
+    b!1 h2
+    c c c
+    c1 h2
+    c es es~ %155
+    es d4 c d2
+    r g g
+    f d f
+    es es es
+    d h d %160
+    c1.~
+    c2 c h
+    c c c
+    b! g b
+    as as as %165
+    g e g
+    f1 g2
+    as g f
+    g1.\fermata \bar "||" %169 finis
+  }
+}
+
+EtResurrexitViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #170
+    c8\fE e' d c16 d e8 e d c16 d
+    e8 e d c16 d e8 e d g
+    a16. g32 f16. e32 f16. e32 d16. c32 h8 c d, h'
+    c, e' d c16 d e d e f g8 d
+    c, e' d g16 f e d e f g8 d
+    c, e' d g16 f e8 a g h %175
+    c g g16 f e d e8 e e16 d c h
+    c4 r r2
+    R1*3 %180
+    r2 g'8\fE h a g16 a
+    h8 g a g16 a h8 g a g16 a
+    h8 g, c, d \kneeBeam g, g'' e fis
+    g g, c, d \kneeBeam g, g'' e fis
+    g g, c, d \kneeBeam g, g'' e fis %185
+    g d d c16 d e8 g d c16 d
+    e8 g d c16 d e8 e d8. c16
+    c c32( d e d e f) g16 c,32( d e d e f) g16 c,32( d e d e f) g16 c,32( d e d e f)
+    g16 c,32( d e d e f) g16 c,32( d e d e f) g16 b, b b g' \hA b, b b
+    a8 f r f' d16 c b a g8 e' %190
+    f16 e f g a8 g a f16. a32 g8 f16 e
+    d8 e16 f g8 g e4 r8 g
+    e a d, g e e d c16 d
+    e8 c d c16 d e8 e d c16 d
+    e8 c d, h' c,4 r %195
+    R1*10 \noBreak %205
+    R1\fermata \bar "||"
+    \tempoSimul c'2\fE e~ \noBreak
+    e4. e8 f2~
+    f8 es16 d \hA es4. d16 c d4~
+    d c8 b? \tieDashed c2~ %210
+    c4 b8 a \hA b4 g'~ \tieSolid
+    g2. f4~ \noBreak
+    f e8 d e2\fermata \bar "||"
+    \time 3/4 \tempoEtConglorificatur \newSpacingSection
+      a16\fE a c c a a c c a a c c \noBreak
+    f, f a a f f a a c, c f f %215
+    c c f f a, a c c f,8 a'
+    a g e f g e
+    a16 a f f f,8 f' g, e'
+    f a16 b c8 a r4
+    r8 e16 f g8 e r4 %220
+    r8 a16 b c8 a r4
+    r8 h16 c d8 h r4
+    r8 e,16 f g8 e c e
+    a, h16 c d8 e16 f h,8 c16 d
+    e8 f16 g c,8 d16 e f8 g16 a %225
+    d, e f8 g16 f e8 d g
+    e g e16^\critnote f g8 d16 e f8
+    e16 f g8 c,16 d e8 d, h'
+    c,4 r r
+    r8 g'' g16^\critnote f e8 d16 e f8 %230
+    e4 r r
+    r8 g, g16^\critnote f e8 d16 e f8
+    e4 c' c
+    c c c
+    c2 c4 %235
+    c2.
+    c4 c h
+    c8 g g16^\critnote f e8 d16 e f8 \noBreak
+    e4 r r\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoEtVitam \newSpacingSection
+      R1*20 %259
+    g2\fE c~ %260
+    c a~
+    a d~
+    d h~
+    h e
+    c d %265
+    g, \once \tieDashed c~
+    c4 h8 a h2
+    c a4 g
+    f g8 a b4 a
+    b2 b4 a %270
+    g a8 h c4 h
+    c2 c~
+    c h
+    c c~
+    c h4 a %275
+    gis e a2~
+    a gis
+    a a4 g
+    fis g8 a h4 a
+    h2 h4 a %280
+    gis a8 h c4 h
+    c2 c
+    h1
+    a2 c
+    h e~ %285
+    e4 dis8 cis \hA dis2
+    e r
+    R1*8 %295
+    a,2 d~
+    d h~
+    h e~
+    e c~
+    c f %300
+    d e
+    c c4 h
+    a h8 c d4 c
+    h c8 d e4 d
+    c d8 e f4 e %305
+    d2 c
+    d b
+    c c~
+    c a~
+    a d~ %310
+    d b~
+    b g~
+    g c~
+    c a
+    g2. g4 %315
+    g2^\critnote a4 g
+    f g8 a b4 a
+    b2 b4 a
+    g a8 h c4 h
+    c2 c~ %320
+    c h
+    c e4 d
+    c d8 e f4 e
+    f2 d4 c
+    h c8 d e4 d %325
+    e2 c~
+    c a~
+    a h~
+    h g~
+    g c %330
+    h1
+    g2 c~
+    c a
+    a d~
+    d h~ %335
+    h e~
+    e c^\critnote
+    a a~
+    a g~
+    g c~ %340
+    c c~
+    c h
+    c c4 h
+    a h8 c d4 c
+    d2 d4 c %345
+    h c8 d e4 d
+    e2 e4 d
+    c d8 e f4 e
+    f1~
+    f2 e %350
+    d1
+    c2 h
+    c r\fermata \bar "|." %353 finis
+  }
+}
