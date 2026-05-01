@@ -813,3 +813,244 @@ EtResurrexitViolinoI = {
     c r\fermata \bar "|." %353 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoSanctus
+    r2 g''\fE g
+    g e r
+    r g g
+    c,1-\critnote g'2
+    a d, g %5
+    g g, c
+    c h4 a h2
+    r a d
+    d c4 h c2
+    c a' d, %10
+    g g fis
+    g r r
+    R1.*2
+    r2 g g %15
+    c, f a
+    g h, c \noBreak
+    a' g g
+    \time 4/4 \tempoPleni \newSpacingSection
+      e8 c c c c4 c16 d c^\critnote d \noBreak
+    e8 c r e a a g16 a g f %20
+    e f e f g8 e r f c a
+    r d d a r d h g
+    c e a fis g4 g8 g
+    g e a, fis' g h,4 c8
+    d d4 e8 f e f e16 d %25
+    e8 e4 d8 c8.[ a'16 g8. f16]
+    g4 c, a g-\critnote
+    r8 c h c a f' f f
+    f e16 f g8 g e c g a
+    b4. b8 a2 %30
+    g1\fermata \bar "|." %31 finis
+  }
+}
+
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoBenedictus
+    e'8\fE a,4 e' \once \tieDashed f8~
+    f e4 d c16 h
+    c8 h4 a gis8
+    gis e r e'4 a,8~
+    a cis4 e g!16 e %5
+    f8 d,4 h g8~
+    g h4 d f16 d
+    e8 c4 c' e8~
+    e a,4 d f8~
+    f h,4 e g8 %10
+    e[ c d a] h8. a32 h
+    c4 r8 e4 a,8~
+    a f'4 d g,8~
+    g e'4 c f,8~
+    f d'4 h a8 %15
+    gis e r e fis gis
+    a[ h c d] e fis16 gis
+    a8. d,16 c4 h
+    a a, r
+    R2.*8 %27
+    g''8\fE c,4 f a8~
+    a g4 f e8~
+    e d4 c h16 a %30
+    h8 g r c4 e8~
+    e a,4 d f8~
+    f h,4 d g8
+    e c d,4 h'
+    c, r r %35
+    R2.*3
+    e'8\p d cis a'4 g8
+    f4 f, r %40
+    g'8 g,4 g' f8
+    e4 e, r
+    r8 g'4 e g8
+    a4 f, r
+    r8 a'4 fis a8 %45
+    h4 g, r
+    r8 h4 gis e8
+    a,4 c' r
+    R2.*2 %50
+    e8\f a,4 e' f8~
+    f e4 d c16 h
+    c8 h4 a gis16 fis?
+    gis8 e r e'4\p a,8~
+    a cis4 e g!16 e %55
+    f8 d,4 h g8~
+    g h4 d f16 d
+    e8 g4 c e8~
+    e a,4 d f8~
+    f h,4 d g8 %60
+    e4 c, r
+    R2.*4 %65
+    e'8\f a,4 e' f8~
+    f e4 d c16 h
+    c8 h4 a gis8
+    gis e r e'4 a,8~
+    a cis4 e g!16 e %70
+    f8 d,4 h g8~
+    g h4 d f16 d
+    e8 g4 c e8~
+    e a,4 d \once \tieDashed f8~
+    f h,4 d g8 %75
+    e c d,4 h'
+    c,4 r8 e'4 a,8~
+    a f'4 d g,8~
+    g e'4 c a8
+    f d'4 c16 h h( a) a( gis) %80
+    gis8 e r e-! fis-! gis-!
+    a[ h c d] e fis16 gis
+    a8. d,16 c4 h \noBreak
+    a a, r\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      c'1\fE \noBreak %85
+    h2. c4
+    d1
+    g,
+    r4 g a h
+    c g c2~ %90
+    c4 h8 a h2
+    e1
+    d2. e4
+    a,1
+    h2 c4 d %95
+    e1
+    d
+    c
+    h2. c4
+    d1 %100
+    g,
+    f4 g a h
+    c2 h4 a
+    gis e a2~
+    a gis %105
+    c1
+    h
+    a2 r
+    R1
+    fis %110
+    g!2. a4
+    h1
+    e,2 e'~
+    e4 d c h
+    c2 d~ %115
+    d4 c h a
+    h2 c4 d
+    e1
+    d
+    c2 r %120
+    R1
+    c1
+    h2. c4
+    d1
+    g,2 c~ %125
+    c h
+    e1
+    d2 h
+    a1
+    h2 e %130
+    d1
+    c2 g'~
+    g f~
+    f e
+    d1 %135
+    c2 r\fermata \bar "|." %136 finis
+  }
+}
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    g''4.\fE g8 g g g g
+    g4. g8 g4. g8
+    g4 g r8 g g g
+    gis4 gis d4. d8
+    c4 a' fis2 %5
+    e4. e8 e e e e
+    e\p c c c h h h h
+    c c c c a a a a
+    g! g g g g g g g
+    g g g g g g g g %10
+    e e e e a a a a
+    g g a a d, d d d
+    e\f e' e e e4. e8
+    e2 r4 e
+    f2 f4 e %15
+    d2 e4 f
+    r f g2 \noBreak
+    f e\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      R2.*33 %51
+    e4(\fE c) d
+    e( c) d
+    e f2
+    f4 e2 %55
+    d4( f) e
+    d( f) e
+    d(\p f) e
+    d( f) e
+    a\f g g %60
+    e e f
+    \once \slurDashed g( e) f
+    f f e
+    f r r
+    R2.*3 %67
+    g,4( b) a
+    g b8( g) a4
+    \slurDashed g(\p b) a %70
+    g b8( g) a4 \slurSolid
+    f'\f g, e'
+    f r r
+    R2.*4 %77
+    \once \slurDashed a,4(\p c) h
+    a( c) h
+    g'\f a, fis' %80
+    g h, c
+    d( f!) e
+    d( f) e
+    a g g
+    e g g~ %85
+    g f8 e f4
+    d2 e4
+    c c h
+    c e,\p f
+    g e f %90
+    g a2
+    a4 g2
+    g,4 r r
+    g\f f'' e
+    e8 f g4 g %95
+    e g g
+    g2 e4
+    c' h4. c8
+    c4 r r
+    \tempoDonaB R2.*3 %102
+    R2.\fermata \bar "|." %103 finis
+  }
+}

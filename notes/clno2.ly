@@ -364,3 +364,133 @@ EtResurrexitClarinoII = {
     e r\fermata \bar "|." %353 finis
   }
 }
+
+SanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoSanctus
+    r2 e' d
+    e e4 f e d
+    c2 e d
+    c e4. e8 e2
+    d g,2. g4 %5
+    e2 r r
+    R1.*5 %11
+    r2 g e'
+    e d4 c d2
+    d c c4 e,
+    g2 d' d %15
+    c2. c4 d2
+    g, d' e \noBreak
+    c g2. g4
+    \time 4/4 \tempoPleni \newSpacingSection
+      e4 r r2 \noBreak
+    r8 g g e r d' d d %20
+    c16 d c d e8 c r2
+    R1*4 %25
+    c8 e e d c c16 c c8 g
+    g e16 e e8 c c4 c
+    r2 r8 f' a f
+    d c d8. c16 c8 c,16 c c8 c
+    c c'16 c c8 c c c,16 c c8 c %30
+    e1\fermata \bar "|." %31 finis
+  }
+}
+
+BenedictusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoBenedictus
+    R2.*83 \noBreak %83
+    R2.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      R1*10 %94
+    g'2\fE c4 d %95
+    e2 c
+    g1
+    g2 r
+    R1*2 %100
+    r2 g
+    e' d
+    g, r
+    r g4. g8
+    e2 e %105
+    e e
+    e1
+    e2 r
+    R1*9 %117
+    c'2 e
+    d1
+    c %120
+    d
+    g,2 r
+    R1*7 %129
+    g2 g4 g %130
+    g2 g
+    e c'
+    c d
+    d g,
+    g1 %135
+    e2 r\fermata \bar "|." %136 finis
+  }
+}
+
+AgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    e4.\fE e8 e e e e
+    e4. c'8 e4 c8 c
+    g4 g r8 g g g
+    e2 r
+    R1 %5
+    r2 e8 e e e
+    e4 r r2
+    R1*5 %12
+    e8 e e e e2
+    R1*3 %16
+    r4 d' d e \noBreak
+    f d e2\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      R2.*24 %42
+    e4\fE c d
+    e c d
+    e f2 %45
+    f4 e2
+    g,4 d' c
+    g d' c
+    g d' c
+    g d' c %50
+    e, g g
+    e r r
+    c' r r
+    c c2
+    c4 c2 %55
+    g c4
+    g2 c4
+    R2.
+    r4 r c
+    d d4. c8 %60
+    c4 r r
+    R2.*19 %80
+    r4 r g
+    g g2
+    g4 g c
+    r g g
+    e c' c %85
+    d2 c4
+    g2 c4
+    c8 e d4. c8
+    c4 r r
+    R2.*3 %92
+    g4 d' c
+    g d' c
+    c8. g16 g4 g %95
+    e c' c
+    d2 c4
+    c8. d16 d4. c8
+    c2 r4
+    \tempoDonaB R2.*3 %102
+    R2.\fermata \bar "|." %103 finis
+  }
+}

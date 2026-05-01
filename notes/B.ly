@@ -1383,3 +1383,326 @@ EtResurrexitBassoLyrics = \lyricmode {
   men, a --
   men. %353 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/2 \autoBeamOff \tempoSanctus
+    r2 \mvDl c'\fE^\tutti g
+    c c, r
+    r c' g
+    a a4 a e2
+    f g2. g4 %5
+    c,2 e c
+    g'1 g2
+    d1 d2
+    a'1 a2
+    d, d4 d g2 %10
+    c, d2. d4
+    g,2 r r
+    R1.*2
+    r2 g' g %15
+    g f4( e) f2
+    f1 e2( \noBreak
+    f) g2. g4
+    \time 4/4 \tempoPleni \newSpacingSection
+      c,4 r r2 \noBreak
+    r8 c' c c f,4 g8 g %20
+    e c r c' a f r f
+    d h r d h g r4
+    r8 a'[( fis d] g4) g8 g
+    e c16 c d4 g, r
+    R1 %25
+    c'8. c,16 c8([ h)] a f16 f g4
+    c c f c
+    r2 r8 f d f
+    g c, g4 c8 c c c
+    c4. c8 c2 %30
+    c1\fermata \bar "|." %31 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De --
+  us Sa -- ba -- %5
+  oth, san -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De -- %10
+  us Sa -- ba --
+  oth,
+
+  san -- ctus, %15
+  Do -- mi -- nus
+  De -- us __
+  Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li et %20
+  ter -- ra, et ter -- ra, et
+  ter -- ra, et ter -- ra
+  glo -- ri -- a,
+  glo -- ri -- a tu -- a,
+  %25
+  glo -- ri -- a, __ glo -- ri -- a tu --
+  a. O -- san -- na,
+  o -- san -- na
+  in ex -- cel -- sis, o -- san -- na
+  in ex -- cel -- %30
+  sis. %31 finis
+}
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 3/4 \autoBeamOff \tempoBenedictus
+    R2.*83 \noBreak %83
+    R2.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      R1*10 %94
+    \mvTr g'1\fE^\tutti %95
+    e2. f4
+    g1
+    c,2 e4 f
+    g d g2~
+    g f~ %100
+    f e
+    d1
+    c2 d
+    d c4 d
+    e1 %105
+    a,2 r
+    R1
+    a'
+    g!2. a4
+    h1 %110
+    e,2 e4e
+    h1
+    e
+    r2 a
+    a4( g f e) %115
+    f2 g
+    g4 f e d
+    c1
+    g
+    c2 c %120
+    c( h)
+    c r
+    R1*3 %125
+    g'1
+    e2. f4
+    g2 g
+    g f~
+    f e4 f %130
+    g1
+    c,2 c
+    a d
+    g, c
+    g1 %135
+    c2 r\fermata \bar "|." %136 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  O -- %95
+  san -- _
+  _
+  na in ex --
+  cel -- _ _
+  _ %100
+  _
+  _
+  sis, ex --
+  cel -- _ _
+  _ %105
+  sis,
+
+  o --
+  san -- _
+  _ %110
+  na in ex --
+  cel --
+  sis,
+  ex --
+  cel -- %115
+  sis, ex --
+  cel -- _ _ _
+  _
+  _
+  sis, o -- %120
+  san --
+  na,
+
+  o -- %126
+  san -- na
+  in ex --
+  cel -- _
+  _ _ %130
+  _
+  sis, o --
+  san -- na
+  in ex --
+  cel -- %135
+  sis. %136 finis
+}
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1
+    \mvTr c4.\fE^\tutti c8 c4 c8 c
+    f4 f r8 f f f
+    e4 e r2
+    a4. a8 dis,4. dis8 %5
+    e2 a,4 r
+    R1*6 %12
+    r2 \mvTr c4.\fE^\tutti c8
+    cis4 cis r \hA cis
+    d d8 d g,4 g' %15
+    g g8 g c,!4 f
+    r f f e \noBreak
+    d2 c\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      R2.*12 %30
+    \mvTr h'4(\pE^\solo g) a
+    h( g) a
+    h c2
+    c4 h2
+    fis4( a) g %35
+    fis( a) g
+    fis(\p a) g
+    fis( a) g
+    g8([\fE a] \grace g4 fis2)
+    g4 d e %40
+    f!( d) e
+    e8([ f] g2)
+    c,4 r r
+    R2.*8 %51
+    \mvTr c2\fE^\tuttiE c4
+    c2 c4
+    c f,2
+    c'4 c2 %55
+    g' g4
+    g2 g4
+    g2\pE g4
+    g2( c,4)
+    f\f g2 %60
+    c,4 r r
+    r r f
+    b, c2
+    f,4 f' g
+    a( f) g %65
+    a b2
+    b4 a2
+    c, c4
+    c2 c4
+    c2\p c4 %70
+    c2( f4)
+    b,\f c2
+    f4 e f
+    e( g) f
+    e( g) f %75
+    R2.*2
+    d2\p d4
+    d2( g4)
+    c,\fE d2 %80
+    g,4 g g
+    g2 g4
+    g2 c4
+    f,( g2)
+    c4 c c %85
+    f2 f4
+    g2 c,4~
+    c g2
+    c4 r r
+    R2.*6 %95
+    r4 c c
+    g2 c4~
+    c g2
+    c2.
+    \tempoDonaB f %100
+    f
+    g,
+    c\fermata \bar "|." %103 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui %2
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re %5
+  no -- bis.
+
+  A -- gnus %13
+  De -- i, qui
+  tol -- lis pec -- ca -- ta %15
+  mun -- di, pec -- ca -- ta,
+  pec -- ca -- ta
+  mun -- di:
+
+  Do -- na %31
+  no -- bis
+  pa -- cem,
+  pa -- cem,
+  do -- na %35
+  no -- bis
+  pa -- cem,
+  pa -- cem,
+  pa --
+  cem, do -- na %40
+  no --
+  bis pa --
+  cem.
+
+  Do -- na %52
+  no -- bis
+  pa -- cem,
+  pa -- cem, %55
+  do -- na
+  no -- bis
+  pa -- cem,
+  pa --
+  cem, pa -- %60
+  cem,
+  no --
+  bis pa --
+  cem, do -- na
+  no -- bis %65
+  pa -- cem,
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa -- cem, %70
+  pa --
+  cem, pa --
+  cem, do -- na
+  no -- bis
+  pa -- cem, %75
+
+  do -- na %78
+  no --
+  bis pa -- %80
+  cem, do -- na
+  no -- bis
+  pa --
+  cem, pa --
+  cem, do -- na %85
+  no -- bis
+  pa -- cem, __
+  pa --
+  cem.
+
+  Do -- na %96
+  no -- bis __
+  pa --
+  cem,
+  pa -- %100
+  cem,
+  pa --
+  cem. %103 finis
+}

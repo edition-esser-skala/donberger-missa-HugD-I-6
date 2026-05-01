@@ -324,3 +324,123 @@ EtResurrexitTimpani = {
     c-\critnote r\fermata \bar "|." %353 finis
   }
 }
+
+SanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/2 \tempoSanctus
+    r2 c\fE g
+    c c g
+    c c g
+    c c c
+    c g g %5
+    c r r
+    R1.*5 %11
+    g2 g c
+    r r g
+    g c c
+    g1. %15
+    R
+    r2 r c \noBreak
+    c g2. g4
+    \time 4/4 \tempoPleni \newSpacingSection
+      c4 r r2 \noBreak
+    r8 c c4 r8 c g g %20
+    c c c4 r2
+    R1*4 %25
+    c4 r8 g c c g8. g16
+    c8 c16 c c8 c c4 c
+    R1
+    g8 c g4 c8 c16 c c8 c
+    c4 c c8 c16 c c8 c %30
+    c2 r\fermata \bar "|." %31 finis
+  }
+}
+
+BenedictusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoBenedictus
+    R2.*83 \noBreak %83
+    R2.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      R1*10 %94
+    g1\fE %95
+    c2 c
+    g1
+    c2 r
+    R1*2 %100
+    r2 c
+    g1
+    c2 r
+    R1*14 %117
+    c2 c
+    g1
+    c2 c %120
+    c g
+    c r
+    R1*7 %129
+    g2 c %130
+    g1
+    c
+    R
+    g2 c
+    g1 %135
+    c2 r\fermata \bar "|." %136 finis
+  }
+}
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    c4 r8 c c c c c
+    c4. c8 c2
+    R1*10 %12
+    c8 c c c c2
+    R1*3 %16
+    r2 g4 c \noBreak
+    g2 c\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      R2.*24 %42
+    c4\fE r r
+    c r r
+    c r r %45
+    c c2
+    g4 g g
+    g g g
+    g g g
+    g g8 g c4 %50
+    c g2
+    c4 r r
+    c r r
+    c r r
+    c2. %55
+    g2 c4
+    g2 c4
+    R2.
+    r4 r c
+    c g2 %60
+    c4-\critnote r r
+    R2.*19 %80
+    r4 r g
+    g g g
+    g g c
+    c g2
+    c r4 %85
+    R2.
+    g2 c4
+    c g2
+    c4-\critnote r r
+    R2.*3 %92
+    g4 r r
+    g r c
+    c g2 %95
+    c4 c c
+    g2 c4
+    c g2
+    c r4
+    \tempoDonaB R2.*3 %102
+    R2.\fermata \bar "|." %103 finis
+  }
+}

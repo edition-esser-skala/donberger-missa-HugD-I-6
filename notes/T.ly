@@ -1262,3 +1262,330 @@ EtResurrexitTenoreLyrics = \lyricmode {
   men, a --
   men. %353 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 3/2 \autoBeamOff \tempoSanctus
+    r2 \mvDl c\fE^\tutti h
+    c c r
+    r c h
+    c c4 c e2
+    d d2. c4 %5
+    c2 c e
+    d1 d2
+    a1 a2
+    a1 a2
+    a fis4 fis h2 %10
+    e d2. d4
+    d2 r r
+    R1.*2
+    r2 d d %15
+    e f f
+    d1 e2( \noBreak
+    d) d2. c4
+    \time 4/4 \tempoPleni \newSpacingSection
+      c4 r r2 \noBreak
+    r8 e e c c4 c8 h %20
+    c c r c c c r c
+    d d r a h h r4
+    r8 e([ d)] d16 d d4 d8 d(
+    e) e16 e d4 d8 g,4 a8
+    h h4 c8 d[ c] d[ c16 h] %25
+    c8. c16 c8([ d)] e f16 f d4
+    e8 r c4 c c
+    r2 r8 c d d
+    d e d4 c8 c c c
+    c4. c8 c2 %30
+    c1\fermata \bar "|." %31 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De --
+  us Sa -- ba -- %5
+  oth, san -- ctus,
+  san -- ctus,
+  san -- ctus,
+  san -- ctus
+  Do -- mi -- nus De -- %10
+  us Sa -- ba --
+  oth,
+
+  san -- ctus, %15
+  Do -- mi -- nus
+  De -- us __
+  Sa -- ba --
+  oth.
+  Ple -- ni sunt coe -- li et %20
+  ter -- ra, et ter -- ra, et
+  ter -- ra, et ter -- ra
+  glo -- ri -- a tu -- a, glo --
+  ri -- a tu -- a, glo -- _
+  _ _ _ _ _ %25
+  _ ri -- a, __ glo -- ri -- a tu --
+  a. O -- san -- na,
+  o -- san -- na
+  in ex -- cel -- sis, o -- san -- na
+  in ex -- cel -- %30
+  sis. %31 finis
+}
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 3/4 \autoBeamOff \tempoBenedictus
+    R2.*83 \noBreak %83
+    R2.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      R1*7 %91
+    \mvTr c1\fE^\tutti
+    h2. c4
+    d1
+    g,2 a4 h %95
+    c g c2~
+    c4 h8[ a] h2
+    e1
+    d2 h
+    a1 %100
+    h2 c
+    d1
+    e2 d4( c)
+    h2 c
+    h1 %105
+    a2 a~
+    a gis
+    c c
+    h2. c4
+    h1~ %110
+    h2 e~
+    e dis
+    e r
+    r c~
+    c4 h a( g) %115
+    a2 h~
+    h4 a g f
+    e g c2~
+    c h
+    c4( d) e2 %120
+    d1
+    e2 r
+    R1*4 %126
+    c1
+    h2. c4
+    d1
+    g,2 c4 c %130
+    c2( h)
+    c e
+    e d
+    d c
+    c( h) %135
+    c r\fermata \bar "|." %136 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  O -- %92
+  san -- _
+  _
+  na in ex -- %95
+  cel -- _ _
+  _ _
+  _
+  sis, ex --
+  cel -- %100
+  sis, o --
+  san --
+  na, o --
+  san -- _
+  _ %105
+  na in __
+  ex --
+  cel -- sis,
+  in ex --
+  cel -- %110
+  _
+  _
+  sis,
+  in __
+  _ ex -- %115
+  cel -- _
+  _ _ _
+  _ _ _
+  sis,
+  in ex -- %120
+  cel --
+  sis,
+
+  o -- %127
+  san -- _
+  _
+  na in ex -- %130
+  cel --
+  sis, o --
+  san -- na
+  in ex --
+  cel -- %135
+  sis. %136 finis
+}
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1
+    \mvTr c4.\fE^\tutti c8 c4 c8 c
+    h4 h r8 h h h
+    h4 h r2
+    a4. a8 a4 a %5
+    a( gis) a r
+    R1*6 %12
+    r2 \mvTr e'4.\fE^\tutti e8
+    e4 e r e
+    e d8 d d4 c %15
+    g g8 g g4 a^\critnote
+    r d d c \noBreak
+    c( h) c2\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      R2.*12 %30
+    \mvTr d4(\pE^\soloE h) c
+    d( h) c
+    d e2
+    e4 d2
+    a4( c) h %35
+    a( c) h
+    a(\p c) h
+    a( c) h
+    h8([\fE c] \grace h4 a2)^\critnote
+    g4 h c^\critnote %40
+    d( h c)
+    c8([ d)] h2
+    c4 r r
+    R2.*8 %51
+    \mvTr c2\fE^\tuttiE c4
+    c2 c4
+    c c2
+    c4 c2 %55
+    h4( d) c
+    h( d) c
+    h(\p d) c
+    h( d c)
+    d\fE d2 %60
+    c4 r r
+    r r c
+    d c2
+    c4 a b
+    c( a) b %65
+    c d2
+    d4 c2
+    c c4
+    c2 c4
+    c2\pE c4 %70
+    c2.
+    d4\fE c2
+    c4 g a
+    g( b) a
+    g( b) a %75
+    R2.*2
+    r4 d\p d
+    d2.
+    e4\f d2 %80
+    d4 g, a
+    h( d) c
+    h( d c)
+    f d2
+    e4 c c %85
+    c2 a4
+    g2 g4~
+    g g2
+    g4 r r
+    R2.*6 %95
+    r4 e' e
+    d2 e4~
+    e d2
+    e2.
+    \tempoDonaB c2. %100
+    c
+    h
+    c\fermata \bar "|." %103 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui %2
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re %5
+  no -- bis.
+
+  A -- gnus %13
+  De -- i, qui
+  tol -- lis pec -- ca -- ta %15
+  mun -- di, pec -- ca -- ta,
+  pec -- ca -- ta
+  mun -- di:
+
+  Do -- na %31
+  no -- bis
+  pa -- cem,
+  pa -- cem,
+  do -- na %35
+  no -- bis
+  pa -- cem,
+  pa -- cem,
+  pa --
+  cem, do -- na %40
+  no --
+  bis pa --
+  cem.
+
+  Do -- na %52
+  no -- bis
+  pa -- cem,
+  pa -- cem, %55
+  do -- na
+  no -- bis
+  pa -- cem,
+  pa --
+  cem, pa -- %60
+  cem,
+  no --
+  bis pa --
+  cem, do -- na
+  no -- bis %65
+  pa -- cem,
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa -- cem, %70
+  pa --
+  cem, pa --
+  cem, do -- na
+  no -- bis
+  pa -- cem, %75
+
+  do -- na %78
+  no --
+  bis pa -- %80
+  cem, do -- na
+  no -- bis
+  pa --
+  cem, pa --
+  cem, do -- na %85
+  no -- bis
+  pa -- cem, __
+  pa --
+  cem.
+
+  Do -- na %96
+  no -- bis __
+  pa --
+  cem,
+  pa -- %100
+  cem,
+  pa --
+  cem. %103 finis
+}

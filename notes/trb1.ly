@@ -693,3 +693,159 @@ EtResurrexitTromboneI = {
     e r\fermata \bar "|." %353 finis
   }
 }
+
+SanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/2 \tempoSanctus
+    r2 g'\fE g
+    g g r
+    r g g
+    e e4 e g2^\critnote
+    a g2. g4 %5
+    g2 r r
+    r d g
+    g f4 e f2
+    e1 e2
+    fis a4 a g2 %10
+    g fis2. fis4
+    g2 r r
+    R1.*2
+    r2 g g %15
+    a2. a4 a2
+    g1 g2 \noBreak
+    a g2. g4
+    \time 4/4 \tempoPleni \newSpacingSection
+      g4 r r2 \noBreak
+    r8 g g g a4 g8 g %20
+    g e r g a a r f
+    f-\critnote g r fis g g r4
+    r8 e a fis g4 g8 g
+    g g16 g g8 fis g4 r
+    R1 %25
+    g8. g16 g4 a8 a16 a g4
+    g g f e
+    r2 r8 f f f
+    f e d4 e8 e e f
+    g4. g8 f2 %30
+    e1\fermata \bar "|." %31 finis
+  }
+}
+
+BenedictusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key a \minor \time 3/4 \tempoBenedictus
+    R2.*83 \noBreak %83
+    R2.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      R1*4 %88
+    g'1\fE
+    e2. f4 %90
+    g1
+    c,2 e4 f
+    g d g2~
+    g4 fis8 e \hA fis2
+    g g~ %95
+    g g
+    g1
+    g2 r
+    R1*6 %104
+    e1 %105
+    c2. d4
+    e1
+    a,2 c4 d
+    e h e2~
+    e dis %110
+    e g4 g
+    fis1
+    e2 r
+    r e~
+    e f! %115
+    f d~
+    d e4 f
+    g2 r
+    g1
+    e2. f4 %120
+    g1
+    c,2 e4 f
+    g d g2~
+    g f~
+    f e %125
+    d g
+    g2. a4
+    h a g2
+    d f
+    g1~ %130
+    g
+    g2 g
+    a a
+    g g
+    g1 %135
+    e2 r\fermata \bar "|." %136 finis
+  }
+}
+
+AgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoAgnus
+    R1
+    g'4.\fE g8 g4 g8 g
+    g4 g r8 g g g
+    gis4 gis r2
+    e4. e8 fis4 fis %5
+    e2 e4 r
+    R1*6 %12
+    r2 g4.\fE g8
+    g4 g r g
+    f f8 f f4 e %15
+    d d8 d e4 f
+    r f g g \noBreak
+    a d, g2\fermata \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+    R2.*33 %51
+    g4\fE e f
+    g e f
+    g a2
+    a4 g2 %55
+    g g4
+    g2 g4
+    g2\pE g4
+    g2.
+    a4\fE g2 %60
+    g4 e f
+    g e f~
+    f f e
+    f r r
+    R2.*3 %67
+    e4 g f
+    e g f
+    e\p g f %70
+    e g f~
+    f\fE f e
+    f r r
+    R2.*2 %75
+    r4 fis g
+    fis a g
+    fis\p a g
+    fis a g~
+    g\fE g fis %80
+    g g g
+    g2 g4
+    g2.
+    a4 g2
+    g4 g g %85
+    g f8 e f4
+    d2 e4~
+    e d2
+    e4 r r
+    R2.*6 %95
+    r4 g g
+    g2 g4~
+    g g2
+    g2.
+    \tempoDonaB R2.*3 %102
+    R2.\fermata \bar "|." %103 finis
+  }
+}
