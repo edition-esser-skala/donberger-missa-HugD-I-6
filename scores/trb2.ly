@@ -1,19 +1,19 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "trb 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2.5\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \KyrieViolinoI
+          \set Staff.instrumentName = "Trombone II"
+          \KyrieTromboneII
         }
       >>
     }
@@ -21,50 +21,31 @@
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
-    \paper { page-count = #1 }
+    \paper { system-count = #5 }
     \score {
       <<
-        \new Staff { \GloriaViolinoI }
+        \new Staff { \GloriaTromboneII }
       >>
     }
-  }
-  \bookpart {
-    \subsection "Laudamus"
-    \addTocEntry
-    \paper { page-count = #1 }
-    \score {
-      <<
-        \new Staff { \LaudamusViolinoI }
-      >>
-    }
+    \tacet "subsection" "Laudamus"
   }
   \bookpart {
     \subsection "Gratias agimus tibi"
     \addTocEntry
+    \paper { system-count = #7 }
     \score {
       <<
-        \new Staff { \GratiasViolinoI }
+        \new Staff { \GratiasTromboneII }
       >>
     }
     \tacet "subsection" "Domine Deus"
   }
   \bookpart {
-    \subsection "Domine Fili"
-    \addTocEntry
-    \paper { system-count = #14 }
-    \score {
-      <<
-        \new Staff { \DomineFiliViolinoIeII }
-      >>
-    }
-  }
-  \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
-    \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \QuiTollisViolinoI }
+        \new Staff { \QuiTollisTromboneII }
       >>
     }
   }
@@ -73,7 +54,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamViolinoI }
+        \new Staff { \QuoniamTromboneII }
       >>
     }
   }
@@ -82,16 +63,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CredoViolinoI }
+        \new Staff { \CredoTromboneII }
       >>
     }
   }
   \bookpart {
     \subsection "Et incarnatus est"
     \addTocEntry
+    \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \EtIncarnatusViolinoI }
+        \new Staff { \EtIncarnatusTromboneII }
       >>
     }
   }
@@ -100,7 +82,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitViolinoI }
+        \new Staff { \EtResurrexitTromboneII }
       >>
     }
   }
@@ -110,16 +92,17 @@
     \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusTromboneII }
       >>
     }
   }
   \bookpart {
     \section "5" "Benedictus"
     \addTocEntry
+    \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \BenedictusViolinoI }
+        \new Staff { \BenedictusTromboneII }
       >>
     }
   }
@@ -128,7 +111,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusViolinoI }
+        \new Staff { \AgnusTromboneII }
       >>
     }
   }

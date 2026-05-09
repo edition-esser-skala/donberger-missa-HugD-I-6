@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \KyrieViolinoI
+          \set Staff.instrumentName = "Violino II"
+          \KyrieViolinoII
         }
       >>
     }
@@ -24,7 +24,7 @@
     \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \GloriaViolinoI }
+        \new Staff { \GloriaViolinoII }
       >>
     }
   }
@@ -34,7 +34,7 @@
     \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \LaudamusViolinoI }
+        \new Staff { \LaudamusViolinoII }
       >>
     }
   }
@@ -43,7 +43,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \GratiasViolinoI }
+        \new Staff { \GratiasViolinoII }
       >>
     }
     \tacet "subsection" "Domine Deus"
@@ -64,7 +64,7 @@
     \paper { system-count = #14 }
     \score {
       <<
-        \new Staff { \QuiTollisViolinoI }
+        \new Staff { \QuiTollisViolinoII }
       >>
     }
   }
@@ -73,7 +73,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamViolinoI }
+        \new Staff { \QuoniamViolinoII }
       >>
     }
   }
@@ -82,7 +82,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CredoViolinoI }
+        \new Staff { \CredoViolinoII }
       >>
     }
   }
@@ -91,7 +91,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtIncarnatusViolinoI }
+        \new Staff { \EtIncarnatusViolinoII }
       >>
     }
   }
@@ -100,7 +100,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitViolinoI }
+        \new Staff { \EtResurrexitViolinoII }
       >>
     }
   }
@@ -110,7 +110,7 @@
     \paper { system-count = #6 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusViolinoII }
       >>
     }
   }
@@ -119,7 +119,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BenedictusViolinoI }
+        \new Staff { \BenedictusViolinoII }
       >>
     }
   }
@@ -128,7 +128,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusViolinoI }
+        \new Staff { \AgnusViolinoII }
       >>
     }
   }
