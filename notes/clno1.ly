@@ -151,7 +151,7 @@ GloriaClarinoI = {
     \clef treble
     \key c \major \time 4/4 \tempoGloria
     e'4\fE r e r
-    \pa e8 d16 e \pd f8 d e4 r8^\critnote d
+    \pa e8 d16. e32 \pd f8 d e4 r8^\critnote d
     c4 r r8^\critnote e \pa e d16 c
     c8 e16 f g8 g g4. g8 \pd
     a a g g g4 r %5
@@ -160,7 +160,7 @@ GloriaClarinoI = {
     R1*2
     r8 g g g e4 r %10
     R1*8 %18
-    \pa e8 d16 e \pd f8 d e4 r
+    \pa e8 d16. e32 \pd f8 d e4 r
     R1 %20
     c8 c16 c c8 c c4 r
     \pa e8 d16 e \pd f8 d e4 r

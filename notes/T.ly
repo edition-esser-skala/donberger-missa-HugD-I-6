@@ -235,7 +235,7 @@ GloriaTenore = {
     c4 c8 c a([^\critnote g)] a a %15
     a a a a h[ c h a]
     g[ a] h[ a16 g] c8[ h c d]
-    g,[ h c e] \appoggiatura e4 d2
+    g,[ h c e] d2
     e4 r c h
     c h8 c c c c h %20
     c4 r r2
@@ -584,7 +584,7 @@ QuoniamTenore = {
     d4. c8 h4 g %295
     c c8 c c4 h
     a2 g4 c~
-    c8[ h16 a] h4 c c8 h
+    c8[ h16 a] h4 c c8[ h]
     a[ g] f[ e16 f] g8[ a] h[ a16 h]
     c4. h8 a[ g] a[ g16 a] %300
     h8[ g] c4. h16[ a] h4
@@ -598,12 +598,12 @@ QuoniamTenore = {
     d4. c8 h4 g
     c c8 c c4 h
     a2 g4 c~
-    c8[ h16 a] h4 c e
+    c8[ h16 a] h4 c \once \tieDashed e~
     e d8[ c] h4 c %315
     h e8[ d] c[ h] a[ g16 a]
     h8[ c] d[ c16 d] e4. d8
-    c[ h] c[ h16 cis] dis8[ h] e4
-    e dis e e
+    c[ h] c[ h16 cis] dis8[ h] e4~
+    e dis e e~
     e4. d16[ c] d2 %320
     c4 r r2
     R1*7 %328
@@ -612,7 +612,7 @@ QuoniamTenore = {
     a4 f b b8 b
     b4 a g2
     a4 c b8[ a] \hA b[ a16 \hA b]
-    c8[ b] a g] a[ g] a[ g16 a]
+    c8[ b a g] a[ g] a[ g16 a]
     h8[ g] c4 c h8[ a] %335
     g[ f] e[ d16 e] f8[ e] d[ g16 a]
     h8[ a16 h] c8[ d] e4 r
@@ -620,12 +620,12 @@ QuoniamTenore = {
     d4. c8 h4 g
     c c8 c c4 h %340
     e e d2
-    e4 d8[ c] d4 r
+    e4 d8[( c]) d4 r
     R1
     g,2 c4 e
     d4. c8 h4 g %345
-    c c8 c c4 d8[ c]
-    h4 c2 h4
+    c c8 c c4 d8[( c])
+    h4 c c h
     c8[ d] e[ d16 e] f8[ e d c]
     h[ c] d[ c16 d] e8[ d c h]
     a[ c f e] d4 e %350
@@ -635,28 +635,72 @@ QuoniamTenore = {
 }
 
 QuoniamTenoreLyrics = \lyricmode {
-  Quo -- ni -- am tu so -- lus, so -- lus
+  Quo -- ni -- am tu so -- lus, so -- lus %276
   san -- ctus, tu so -- lus, so -- lus
   Do -- mi -- nus, tu so -- lus al --
   tis -- si -- mus, Je --
-  su Chri --
+  su Chri -- %280
   ste.
 
   Quo -- ni -- am tu so -- lus, so -- lus
   san -- ctus, tu so -- lus, so -- lus
-  Do -- mi -- nus, tu so -- lus al --
+  Do -- mi -- nus, tu so -- lus al -- %285
   tis -- si -- mus, al -- tis -- si -- mus,
   Je -- su Chri -- ste, Je --
   _ _ _ su Chri --
   ste.
 
-  % Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men,
-  % cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men,
-  % cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men,
-  % cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men,
-  % cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men,
-  % cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men,
-  % cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men,
+  Cum San -- cto %294
+  Spi -- ri -- tu in %295
+  glo -- ri -- a De -- i
+  Pa -- tris, a --
+  _ men, a --
+  _ _ _ _
+  _ _ _ _ %300
+  _ _ _ _
+  men, a -- _ _
+  _ men, a -- _
+  _ _ _ _
+  _ _ _ _ %305
+  _ men,
+
+  cum San -- cto %310
+  Spi -- ri -- tu in
+  glo -- ri -- a De -- i
+  Pa -- tris, a --
+  _ men, a --
+  _ _ men, %315
+  a -- _ _ _
+  _ _ _ _
+  _ _ _ _
+  _ men, a --
+  _ _ %320
+  men,
+
+  cum %329
+  San -- cto Spi -- ri -- %330
+  tu in glo -- ri -- a
+  De -- i Pa --
+  tris, a -- _ _
+  _ _ _
+  _ men, a -- _ %335
+  _ _ _ _
+  _ _ men,
+  cum San -- cto
+  Spi -- ri -- tu in
+  glo -- ri -- a De -- i %340
+  Pa -- tris, a --
+  men, a -- men,
+
+  cum San -- cto
+  Spi -- ri -- tu in %345
+  glo -- ri -- a De -- i
+  Pa -- tris, a -- men,
+  a -- _ _
+  _ _ _
+  _ _ men, %350
+  a -- men, a --
+  men. %352 finis
 }
 
 CredoTenore = {

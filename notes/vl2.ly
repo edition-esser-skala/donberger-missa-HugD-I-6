@@ -188,7 +188,30 @@ GloriaViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoGloria
-    s1*24 \bar "||"
+    e'8\fE c16. e32 f8 d16. f32 e8 c16. e32 d8 h16. d32
+    c8 h16. c32 d8 h c e,16. g32 f8 d
+    e16 c d e f g a h c8 c d, h'
+    c c d d c c d e
+    d d d d c16 c, d e f g a h %5
+    c8 e d d e4 d8 d
+    e e d16 e d c h g a h c d e fis
+    g4 r r16 d, e fis g a h cis
+    d4 r r16 g,, a h c! d e fis?
+    g4 r r16 c, d e f g a h %10
+    c4 r c c
+    c16 f, g a b c d e f4 e
+    f c8 c d d c16. d32 c16. b32
+    a8 f'16. g32 a16. a32 g16. g32 f8 c c f
+    e e16. d32 c8 c c c c c %15
+    d d d d h a h16. h32 c16. d32
+    e8 e e d16. e32 f4. e16 d
+    e8 d c4. d8 c h
+    c h16. c32 d8 h c4 r
+    R1 %20
+    c8 c, c c c d16 e f g a h
+    c8 h16. c32 d8 h e c16. e32 f8 d
+    e e d d e4 d
+    c r r2\fermata \bar "||" %24 finis
   }
 }
 
@@ -197,7 +220,38 @@ LaudamusViolinoII = {
     \clef treble
     \key f \major \time 4/4 \tempoLaudamus
       \set Score.currentBarNumber = #25
-    s1*45 \bar "||"
+    r8 c'\fE c b a g16. f32 g8 e
+    f16. c32 f16. a32 g8 f e e' d h
+    g a4 g16 f e8 e16. g32 a8 a
+    d,4 r r16 g' d32 c d e f16. f32 e16. d32
+    e16 d32 c d c d e f16. f,32 a16. a32 d,8 e16. d32 c8 h
+    c16 c32 d e d e f g16 e32 f g f g a b!16. b32 a16. b32 c,16. b'32 a16. g32 %30
+    a4 r16 f32 g a g a b c16. c32 b16. c32 c16. c32 b16. a32
+    b8 d4 d8 g,4 r16 c32 d e d e f
+    g16. e32 c16. d32 f,8 e f4 r
+    R1*10 %43
+    r2 r8 d'\fE d c
+    h a16. g32 a8 fis g16. d32 g16. h32 a8 g %45
+    fis16 d32 e \hA fis e \hA fis g a16 fis32 g a g a h c16. c32 \hA h16. c32 d,16. c'32 \hA h16. a32
+    h4 r16 g32 a h a \hA h c d16. d32 \hA h16. c32 d16. d32 c16. \hA h32
+    c16. e32 e16. f32 f16. d32 d16. e32 e16. c32 c16. d32 d16. h32 h16. d32
+    c8 c,4 h8 c4 r
+    R1*5 %54
+    r16 h'\pE h16. h32 h16 c32 d e16 e e8 a, r4 %55
+    r16 a a16. a32 a16 h32 c d16 d d8 g, r4
+    r16 c,32 d e d e f g16 e32 f g f g a b16. b32 a16. b32 c,16. b'32 a16. g32
+    a8 c a f r16 c' b16. c32 f,16. c'32 b16. a32
+    b4 r r2
+    r r8 c\f c b %60
+    a8. g32 f g8 e f16. c32 f16. a32 g8 f
+    e e' d h-\critnote g a4 g16 f
+    e8 e16. g32 a8 a d,4 r
+    r16 g' d32 c d e f16. f32 e16. d32 e16 d32 c d c d e f16. f,32 a16. a32
+    d,8 e16 c c8 h c16 c32 d e d e f g16 e32 f g f g a %65
+    b!16. b32 a16. b32 c,16. b'32 a16. g32 a4 r16 f32 g a g a b
+    c16. c32 b16. c32 c16. c32 b16. a32 b8 d4 d8
+    g,4 r16 c32 d e d e f g16. e32 f16. f,32 f8 e
+    f4 r r2\fermata \bar "||" %69 finis
   }
 }
 
@@ -206,8 +260,63 @@ GratiasViolinoII = {
     \clef treble
     \key c \major \time 4/4 \tempoGratias
       \set Score.currentBarNumber = #70
-    s1*64 \bar "||"
-    % \twotwotime \time 2/2 \tempoPropter
+    c'4.\fE c8 c16. e32 d16. e32 c8 c
+    c4. c8 c4. d8
+    g2\fermata r4 \once \tieDashed c,~
+    c4. c8 d4 f, \noBreak
+    g1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoPropter
+      R1*5 %79
+    c1 %80
+    d2. c4
+    h1
+    c2. h4
+    a h c2
+    d2. c4 %85
+    h2 c~
+    c h
+    c1
+    R1*2 %90
+    d1
+    e2. d4
+    c1
+    d2. c4
+    h1 %95
+    c2. h4
+    a h c2
+    d d
+    d1~
+    d2 \once \tieDashed c~ %100
+    c h4 a
+    gis2 a~
+    a gis
+    a e'
+    f2. e4 %105
+    d1
+    e2. d4
+    c1
+    d2. c4
+    h1 %110
+    c2. h4
+    a1
+    h2. a4
+    g a8 h c2
+    c h %115
+    c1
+    g
+    a2. g4
+    f1
+    g2. f4
+    e2 c'
+    d2. c4
+    h1
+    c2. h4
+    a2 d4 c %125
+    h2 c~
+    c h
+    c r
+    R1*4 %132
+    R1\fermata \bar "||" %133 finis
   }
 }
 

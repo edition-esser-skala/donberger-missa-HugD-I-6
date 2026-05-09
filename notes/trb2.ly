@@ -302,12 +302,12 @@ QuoniamTromboneII = {
     d4. c8 h4 g
     c c8 c c4 h
     a2 g4 c~
-    c8 h16 a h4 c e
+    c8 h16 a h4 c \once \tieDashed e~
     e d8 c h4 c %315
     h e8 d c h a g16 a
     h8 c d c16 d e4. d8
-    c h c h16 cis dis8 h e4
-    e dis e e
+    c h c h16 cis dis8 h \once \tieDashed e4~
+    e dis e \once \tieDashed e~
     e4. d16 c d2 %320
     c4 r r2
     R1*7 %328

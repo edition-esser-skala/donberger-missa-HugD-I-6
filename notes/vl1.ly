@@ -182,7 +182,7 @@ GloriaViolinoI = {
     \clef treble
     \key c \major \time 4/4 \tempoGloria
     g''8\fE e16. g32 a8 f16. a32 g8 e16. g32 f8 d16. f32
-    e8 c16. e32 f8 d e c16. e32 d8 h
+    e8 d16. e32 f8 d e c16. e32 d8 h
     c16 e, f g a h c d e8 c d, h'
     c e16 f g8 g e16 d e f g8 g
     a16 g f e d8 g e16 e, f g a h c d %5
@@ -194,12 +194,12 @@ GloriaViolinoI = {
     e4 r a g
     a16 a, b c d e f g a4 g
     a8 a16 g f8 a g g16. f32 e16.^\critnote f32 d16. e32
-    f8 a16 b c16. c32 \hA b16. a32 a16. a32 g16. g32 f8 a
+    f8 a16. b32 c16. c32 \hA b16. b32 a16. a32 g16. g32 f8 a
     g g16. f32 e8 f16. g32 a8 b a g %15
     f16. e32 f16. g32 a8 a d, d d16. g32 g16. g32
-    g8 f e f16. g32 a4. g16. f32
+    g8 f e f16. g32 a4. g16 f
     e8 g16. f32 e8 g a a g16 f e d
-    e8 d16 e f8 d e4 r
+    e8 d16. e32 f8 d e4 r
     R1 %20
     e8 e, e e e f16 g a h c d
     e8 d16. e32 f8 d g e16. g32 a8 f
@@ -234,7 +234,7 @@ LaudamusViolinoI = {
     r2 r16 e'\p e16. e32 e16 f32 g a16 a %55
     a8 f, r4 r16 d' d16. d32 d16 e32 f g16 g
     g8 g, r4 r2
-    r16 f32\p g a g a b! c16 a32 b c b c d es16. es32 d16. \hA es32 f,16. \hA es'32 d16. c32
+    r16 f32 g a g a b! c16 a32 b c b c d es16. es32 d16. \hA es32 f,16. \hA es'32 d16. c32
     d4 r r2
     R1*2 %61
     r8 g\fE g f e d16. c32 d8 h

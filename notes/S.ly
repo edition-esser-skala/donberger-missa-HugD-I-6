@@ -400,7 +400,7 @@ GratiasSoprano = {
     c2. h4
     a1
     h2. a4
-    g a8[ h]c2
+    g a8[ h] c2
     c( h) %115
     c r
     R1*4 %120

@@ -285,7 +285,7 @@ LaudamusAlto = {
     R1*5 %48
     r2 r8 g' g f
     e d16([ c)] d8 h c e16 e d8 c16 d %50
-    h8 h' a f d e e d16([ c)]
+    h8 h' a fis d e e d16([ c)]
     h8 g'16 g g8 f16 g e8 e16 f g([ a32 g f16 g]
     a4.) g8 f d16 e f[ g32 f e16 f]
     g4. f8 e[ c'] h([ a)]
